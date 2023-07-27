@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div
+  id="carouselExampleSlidesOnly"
+  class="relative"
+  data-te-carousel-init
+  data-te-carousel-slide>
+  <!--Carousel items-->
+  <div
+    class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+    <!--First item-->
+    <div
+      class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item
+      data-te-carousel-active>
+      <img
+        src="./images/banner1.png"
+        class="block w-full"
+        alt="Wild Landscape" />
+    </div>
+    <!--Second item-->
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="./images/banner2.png"
+        class="block w-full"
+        alt="Camera" />
+    </div>
+    <!--Third item-->
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="./images/banner3.png"
+        class="block w-full"
+        alt="Exotic Fruits" />
+    </div>
+  </div>
+</div>
+</body>
+</html>
